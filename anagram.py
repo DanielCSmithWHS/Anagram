@@ -32,3 +32,8 @@ def anagram(phrase):
     print("Time taken (seconds): {}".format((endTime - startTime)))
     print("{} Possible permutations of {}".format(moves, phrase))
     print(words)
+    
+    
+while True:
+    userWord = input("Enter a word: ")
+    anagram(userWord)
